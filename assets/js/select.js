@@ -55,3 +55,9 @@ if(prodId==8){
     selW = 495;
     selH = 375;
 }
+
+if(prodId==9){
+    sel="assets/media/utiles2.png";
+    selW = 270;
+    selH = 189;
+}
