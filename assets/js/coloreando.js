@@ -2,6 +2,9 @@
 var xp = 0; var yp = 0;
 function initAct() {
     loadIma();
+    const canvas = document.getElementById('CanvasPaint')
+    canvas.width = selW;
+    canvas.height = selH;
     
     if (tiAval) { parent.iniciaActividade() }
     $(".bColor").mousedown(function () { indexColor = parseInt($(this).attr("id").substring(1, 2)); seleColor(); }); seleColor();
@@ -18,6 +21,7 @@ function drawcross() { $("#s_pointer").show(); $("#vertical").attr("x1", xp); $(
 function loadIma() {
     var canvas = document.getElementById("CanvasPaint"); var context = canvas.getContext("2d"); var imageObj = new Image();
     imageObj.onload = function () {
+        
         context.drawImage(this, 0, 0); context.beginPath(); context.rect(0, 0, canvas.width, canvas.height); context.lineWidth = 4; context.strokeStyle = "black"; context.stroke();
     }; imageObj.src = sel;
     $("#CanvasPaint").mousedown(function (e) { var parentOffset = $(this).offset(); fillArea(e.pageX - Math.trunc(parentOffset.left), e.pageY - Math.trunc(parentOffset.top), canvas.width, canvas.height, context); });
