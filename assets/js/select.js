@@ -52,8 +52,8 @@ if(prodId==7){
 
 if(prodId==8){
     sel="assets/media/sentidosdelcuerpo.jpg";
-    selW = 495;
-    selH = 375;
+    selW = 479;
+    selH = 358;
 }
 
 if(prodId==9){
