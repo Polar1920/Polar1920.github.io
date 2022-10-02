@@ -61,3 +61,15 @@ if(prodId==9){
     selW = 270;
     selH = 189;
 }
+
+if(prodId==10){
+    sel="assets/media/vocales1.jpg";
+    selW = 286;
+    selH = 201;
+}
+
+if(prodId==11){
+    sel="assets/media/vocales2.jpg";
+    selW = 304;
+    selH = 304;
+}
