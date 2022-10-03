@@ -73,3 +73,15 @@ if(prodId==11){
     selW = 304;
     selH = 304;
 }
+
+if(prodId==12){
+    sel="assets/media/reloj1.jpg";
+    selW = 128;
+    selH = 166;
+}
+
+if(prodId==13){
+    sel="assets/media/reloj2.jpg";
+    selW = 152;
+    selH = 152;
+}
