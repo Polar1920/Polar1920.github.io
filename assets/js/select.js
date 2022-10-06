@@ -85,3 +85,15 @@ if(prodId==13){
     selW = 152;
     selH = 152;
 }
+
+if(prodId==14){
+    sel="assets/media/suma1.jpg";
+    selW = 582;
+    selH = 406;
+}
+
+if(prodId==15){
+    sel="assets/media/suma2.jpg";
+    selW = 559;
+    selH = 386;
+}
